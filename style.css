@@ -1,13 +1,8 @@
-/* body{
-    background-color: #E5D68A;
-} */
-/* .nav-link:hover{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-    border-radius: 20%;
-    background-color: #E8B691;
-    
-} */
-
-iframe{
-    width: 80%;
+@font-face {
+    font-family: bengaliFont;
+    src: url(Kalpana.ttf);
 }
