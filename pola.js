@@ -1,37 +1,37 @@
-let bracelet = [{
-  "name": "Gold Bracelet 1",
+let pola = [{
+  "name": "Gold Pola 1",
   "weight": 2,
-  "imageFileLocation": "img/bracelet/bracelet1.jpg"
+  "imageFileLocation": "img/pola/pola1.jpg"
 },
 {
-  "name": "Gold Bracelet 2",
+  "name": "Gold Pola 2",
   "weight": 3,
-  "imageFileLocation": "img/bracelet/bracelet2.jpg"
+  "imageFileLocation": "img/pola/pola2.jpg"
 },
 {
-  "name": "Gold Bracelet 3",
+  "name": "Gold Pola 3",
   "weight": 4,
-  "imageFileLocation": "img/bracelet/bracelet3.jpg"
+  "imageFileLocation": "img/pola/pola3.jpg"
 },
 {
-  "name": "Gold Bracelet 4",
+  "name": "Gold Pola 4",
   "weight": 5,
-  "imageFileLocation": "img/bracelet/bracelet4.jpg"
+  "imageFileLocation": "img/pola/pola4.jpg"
 },
 {
-  "name": "Gold Bracelet 5",
+  "name": "Gold Pola 5",
   "weight": 6,
-  "imageFileLocation": "img/bracelet/bracelet5.jpg"
+  "imageFileLocation": "img/pola/pola5.jpg"
 },
 {
-  "name": "Gold Bracelet 6",
+  "name": "Gold Pola 6",
   "weight": 7,
-  "imageFileLocation": "img/bracelet/bracelet6.jpg"
+  "imageFileLocation": "img/pola/pola6.jpg"
 }]
 
 let templateString = '';
 
-for (let i = 0; i < bracelet.length; i += 1)
+for (let i = 0; i < pola.length; i += 1)
 {
   templateString += `<div
   class="w-full max-w-xs rounded-lg border border-gray-200 bg-white shadow drop-shadow-2xl dark:bg-gray-700 md:m-20"
@@ -41,7 +41,7 @@ for (let i = 0; i < bracelet.length; i += 1)
   >
     <img
       class="rounded-t-lg p-4"
-      src="${bracelet[i].imageFileLocation}"
+      src="${pola[i].imageFileLocation}"
       alt="product image"
     />
   </div>
@@ -50,7 +50,7 @@ for (let i = 0; i < bracelet.length; i += 1)
       <h5
         class="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
       >
-      ${bracelet[i].name}
+      ${pola[i].name}
       </h5>
     </a>
   
@@ -68,7 +68,7 @@ for (let i = 0; i < bracelet.length; i += 1)
   </div>`
 }
 
-class Bracelet extends HTMLElement
+class Pola extends HTMLElement
 {
   constructor()
   {
@@ -77,11 +77,9 @@ class Bracelet extends HTMLElement
 
   connectedCallback()
   {
-    console.log('Template String ' + templateString);
     this.innerHTML = templateString;
-  
   }
 }
 
-customElements.define('bracelet-component', Bracelet);
+customElements.define('pola-component', Pola);
 

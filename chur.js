@@ -1,37 +1,37 @@
-let bracelet = [{
-  "name": "Gold Bracelet 1",
+let chur = [{
+  "name": "Gold Chur 1",
   "weight": 2,
-  "imageFileLocation": "img/bracelet/bracelet1.jpg"
+  "imageFileLocation": "img/chur/chur1.jpg"
 },
 {
-  "name": "Gold Bracelet 2",
+  "name": "Gold Chur 2",
   "weight": 3,
-  "imageFileLocation": "img/bracelet/bracelet2.jpg"
+  "imageFileLocation": "img/chur/chur2.jpg"
 },
 {
-  "name": "Gold Bracelet 3",
+  "name": "Gold Chur 3",
   "weight": 4,
-  "imageFileLocation": "img/bracelet/bracelet3.jpg"
+  "imageFileLocation": "img/chur/chur3.jpg"
 },
 {
-  "name": "Gold Bracelet 4",
+  "name": "Gold Chur 4",
   "weight": 5,
-  "imageFileLocation": "img/bracelet/bracelet4.jpg"
+  "imageFileLocation": "img/chur/chur4.jpg"
 },
 {
-  "name": "Gold Bracelet 5",
+  "name": "Gold Chur 5",
   "weight": 6,
-  "imageFileLocation": "img/bracelet/bracelet5.jpg"
+  "imageFileLocation": "img/chur/chur5.jpg"
 },
 {
-  "name": "Gold Bracelet 6",
+  "name": "Gold Chur 6",
   "weight": 7,
-  "imageFileLocation": "img/bracelet/bracelet6.jpg"
+  "imageFileLocation": "img/chur/chur6.jpg"
 }]
 
 let templateString = '';
 
-for (let i = 0; i < bracelet.length; i += 1)
+for (let i = 0; i < chur.length; i += 1)
 {
   templateString += `<div
   class="w-full max-w-xs rounded-lg border border-gray-200 bg-white shadow drop-shadow-2xl dark:bg-gray-700 md:m-20"
@@ -41,7 +41,7 @@ for (let i = 0; i < bracelet.length; i += 1)
   >
     <img
       class="rounded-t-lg p-4"
-      src="${bracelet[i].imageFileLocation}"
+      src="${chur[i].imageFileLocation}"
       alt="product image"
     />
   </div>
@@ -50,7 +50,7 @@ for (let i = 0; i < bracelet.length; i += 1)
       <h5
         class="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
       >
-      ${bracelet[i].name}
+      ${chur[i].name}
       </h5>
     </a>
   
@@ -68,7 +68,7 @@ for (let i = 0; i < bracelet.length; i += 1)
   </div>`
 }
 
-class Bracelet extends HTMLElement
+class Chur extends HTMLElement
 {
   constructor()
   {
@@ -77,11 +77,10 @@ class Bracelet extends HTMLElement
 
   connectedCallback()
   {
-    console.log('Template String ' + templateString);
+    // console.log('Template String ' + templateString);
     this.innerHTML = templateString;
-  
   }
 }
 
-customElements.define('bracelet-component', Bracelet);
+customElements.define('chur-component', Chur);
 
