@@ -10,31 +10,12 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>
     <script type="module" src="navbar.js" type="text/javascript" defer></script>
-  </head>
+    <script type="module" src="bracelet.js" type="text/javascript" defer></script>
+</head>
 
 <body class="bg-yellow-200">
     <nav-component></nav-component>
-
-    <div
-        class="w-full max-w-sm rounded-lg border border-gray-200 bg-white shadow drop-shadow-2xl dark:bg-gray-700 md:m-20">
-        <div class="cursor-pointer object-cover transition duration-500 hover:scale-110">
-            <img class="rounded-t-lg p-4" src="img/bracelet/bracelet1.jpg" alt="product image" />
-        </div>
-        <div class="px-5 pb-5">
-            <a href="tel:+919434000984">
-                <h5 class="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                    Gold Bracelet
-                </h5>
-            </a>
-
-            <div class="flex items-center justify-between">
-                <span class="text-xl font-bold text-gray-900 dark:text-white">Weight : 2 grams (Approx)</span>
-                <a href="#"
-                    class="rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Contact</a>
-            </div>
-        </div>
-    </div>
-
+    <bracelet-component class="grid lg:grid-cols-3 sm:grid-cols-1"></bracelet-component>
     <script type="module" src="navbar-helper.js" type="text/javascript" defer></script>
 </body>
 

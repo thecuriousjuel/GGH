@@ -10,7 +10,7 @@
             </span>
       
             <span class="mx-2 block cursor-pointer text-3xl md:hidden">
-              <ion-icon name="menu" onclick="import('./helper.js').then(module => module.Menu(this))"></ion-icon>
+              <ion-icon name="menu" onclick="import('./navbar-helper.js').then(module => module.Menu(this))"></ion-icon>
             </span>
           </div>
       
