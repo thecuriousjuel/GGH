@@ -1,33 +1,12 @@
-let loha = [{
-  "name": "Gold Loha 1",
-  "weight": 2,
-  "imageFileLocation": "img/loha/loha1.jpg"
-},
-{
-  "name": "Gold Loha 2",
-  "weight": 3,
-  "imageFileLocation": "img/loha/loha2.jpg"
-},
-{
-  "name": "Gold Loha 3",
-  "weight": 4,
-  "imageFileLocation": "img/loha/loha3.jpg"
-},
-{
-  "name": "Gold Loha 4",
-  "weight": 5,
-  "imageFileLocation": "img/loha/loha4.jpg"
-},
-{
-  "name": "Gold Loha 5",
-  "weight": 6,
-  "imageFileLocation": "img/loha/loha5.jpg"
-},
-{
-  "name": "Gold Loha 6",
-  "weight": 7,
-  "imageFileLocation": "img/bracelet/bracelet6.jpg"
-}]
+let loha = [{'name': 'Gold Loha 1', 'weight': 2, 'imageFileLocation': 'img/loha/loha1.jpg'},
+{'name': 'Gold Loha 2', 'weight': 2, 'imageFileLocation': 'img/loha/loha2.jpg'},
+{'name': 'Gold Loha 3', 'weight': 2, 'imageFileLocation': 'img/loha/loha3.jpg'},
+{'name': 'Gold Loha 4', 'weight': 2, 'imageFileLocation': 'img/loha/loha4.jpg'},
+{'name': 'Gold Loha 5', 'weight': 2, 'imageFileLocation': 'img/loha/loha5.jpg'},
+{'name': 'Gold Loha 6', 'weight': 2, 'imageFileLocation': 'img/loha/loha6.jpg'},
+{'name': 'Gold Loha 7', 'weight': 2, 'imageFileLocation': 'img/loha/loha7.jpg'},
+{'name': 'Gold Loha 8', 'weight': 2, 'imageFileLocation': 'img/loha/loha8.jpg'},
+{'name': 'Gold Loha 9', 'weight': 2, 'imageFileLocation': 'img/loha/loha9.jpg'},]
 
 let templateString = '';
 
@@ -77,7 +56,6 @@ class Loha extends HTMLElement
 
   connectedCallback()
   {
-    console.log('Template String ' + templateString);
     this.innerHTML = templateString;
   
   }

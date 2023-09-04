@@ -1,33 +1,26 @@
-let pola = [{
-  "name": "Gold Pola 1",
-  "weight": 2,
-  "imageFileLocation": "img/pola/pola1.jpg"
-},
-{
-  "name": "Gold Pola 2",
-  "weight": 3,
-  "imageFileLocation": "img/pola/pola2.jpg"
-},
-{
-  "name": "Gold Pola 3",
-  "weight": 4,
-  "imageFileLocation": "img/pola/pola3.jpg"
-},
-{
-  "name": "Gold Pola 4",
-  "weight": 5,
-  "imageFileLocation": "img/pola/pola4.jpg"
-},
-{
-  "name": "Gold Pola 5",
-  "weight": 6,
-  "imageFileLocation": "img/pola/pola5.jpg"
-},
-{
-  "name": "Gold Pola 6",
-  "weight": 7,
-  "imageFileLocation": "img/pola/pola6.jpg"
-}]
+let pola = [{'name': 'Gold Pola 1', 'weight': 2, 'imageFileLocation': 'img/pola/pola1.jpg'},
+{'name': 'Gold Pola 2', 'weight': 2, 'imageFileLocation': 'img/pola/pola2.jpg'},
+{'name': 'Gold Pola 3', 'weight': 2, 'imageFileLocation': 'img/pola/pola3.jpg'},
+{'name': 'Gold Pola 4', 'weight': 2, 'imageFileLocation': 'img/pola/pola4.jpg'},
+{'name': 'Gold Pola 5', 'weight': 2, 'imageFileLocation': 'img/pola/pola5.jpg'},
+{'name': 'Gold Pola 6', 'weight': 2, 'imageFileLocation': 'img/pola/pola6.jpg'},
+{'name': 'Gold Pola 7', 'weight': 2, 'imageFileLocation': 'img/pola/pola7.jpg'},
+{'name': 'Gold Pola 8', 'weight': 2, 'imageFileLocation': 'img/pola/pola8.jpg'},
+{'name': 'Gold Pola 9', 'weight': 2, 'imageFileLocation': 'img/pola/pola9.jpg'},
+{'name': 'Gold Pola 10', 'weight': 2, 'imageFileLocation': 'img/pola/pola10.jpg'},
+{'name': 'Gold Pola 11', 'weight': 2, 'imageFileLocation': 'img/pola/pola11.jpg'},
+{'name': 'Gold Pola 12', 'weight': 2, 'imageFileLocation': 'img/pola/pola12.jpg'},
+{'name': 'Gold Pola 13', 'weight': 2, 'imageFileLocation': 'img/pola/pola13.jpg'},
+{'name': 'Gold Pola 14', 'weight': 2, 'imageFileLocation': 'img/pola/pola14.jpg'},
+{'name': 'Gold Pola 15', 'weight': 2, 'imageFileLocation': 'img/pola/pola15.jpg'},
+{'name': 'Gold Pola 16', 'weight': 2, 'imageFileLocation': 'img/pola/pola16.jpg'},
+{'name': 'Gold Pola 17', 'weight': 2, 'imageFileLocation': 'img/pola/pola17.jpg'},
+{'name': 'Gold Pola 18', 'weight': 2, 'imageFileLocation': 'img/pola/pola18.jpg'},
+{'name': 'Gold Pola 19', 'weight': 2, 'imageFileLocation': 'img/pola/pola19.jpg'},
+{'name': 'Gold Pola 20', 'weight': 2, 'imageFileLocation': 'img/pola/pola20.jpg'},
+{'name': 'Gold Pola 21', 'weight': 2, 'imageFileLocation': 'img/pola/pola21.jpg'},
+{'name': 'Gold Pola 22', 'weight': 2, 'imageFileLocation': 'img/pola/pola22.jpg'},
+{'name': 'Gold Pola 23', 'weight': 2, 'imageFileLocation': 'img/pola/pola23.jpg'},]
 
 let templateString = '';
 

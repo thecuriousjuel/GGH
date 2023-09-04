@@ -1,33 +1,15 @@
-let chur = [{
-  "name": "Gold Chur 1",
-  "weight": 2,
-  "imageFileLocation": "img/chur/chur1.jpg"
-},
-{
-  "name": "Gold Chur 2",
-  "weight": 3,
-  "imageFileLocation": "img/chur/chur2.jpg"
-},
-{
-  "name": "Gold Chur 3",
-  "weight": 4,
-  "imageFileLocation": "img/chur/chur3.jpg"
-},
-{
-  "name": "Gold Chur 4",
-  "weight": 5,
-  "imageFileLocation": "img/chur/chur4.jpg"
-},
-{
-  "name": "Gold Chur 5",
-  "weight": 6,
-  "imageFileLocation": "img/chur/chur5.jpg"
-},
-{
-  "name": "Gold Chur 6",
-  "weight": 7,
-  "imageFileLocation": "img/chur/chur6.jpg"
-}]
+let chur = [{'name': 'Gold Chur 1', 'weight': 2, 'imageFileLocation': 'img/chur/chur1.jpg'},
+{'name': 'Gold Chur 2', 'weight': 2, 'imageFileLocation': 'img/chur/chur2.jpg'},
+{'name': 'Gold Chur 3', 'weight': 2, 'imageFileLocation': 'img/chur/chur3.jpg'},
+{'name': 'Gold Chur 4', 'weight': 2, 'imageFileLocation': 'img/chur/chur4.jpg'},
+{'name': 'Gold Chur 5', 'weight': 2, 'imageFileLocation': 'img/chur/chur5.jpg'},
+{'name': 'Gold Chur 6', 'weight': 2, 'imageFileLocation': 'img/chur/chur6.jpg'},
+{'name': 'Gold Chur 7', 'weight': 2, 'imageFileLocation': 'img/chur/chur7.jpg'},
+{'name': 'Gold Chur 8', 'weight': 2, 'imageFileLocation': 'img/chur/chur8.jpg'},
+{'name': 'Gold Chur 9', 'weight': 2, 'imageFileLocation': 'img/chur/chur9.jpg'},
+{'name': 'Gold Chur 10', 'weight': 2, 'imageFileLocation': 'img/chur/chur10.jpg'},
+{'name': 'Gold Chur 11', 'weight': 2, 'imageFileLocation': 'img/chur/chur11.jpg'},
+{'name': 'Gold Chur 12', 'weight': 2, 'imageFileLocation': 'img/chur/chur12.jpg'},]
 
 let templateString = '';
 
@@ -77,7 +59,6 @@ class Chur extends HTMLElement
 
   connectedCallback()
   {
-    // console.log('Template String ' + templateString);
     this.innerHTML = templateString;
   }
 }
