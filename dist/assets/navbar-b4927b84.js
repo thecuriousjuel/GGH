@@ -1,4 +1,4 @@
-(function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))r(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const l of t.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&r(l)}).observe(document,{childList:!0,subtree:!0});function a(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function r(e){if(e.ep)return;e.ep=!0;const t=a(e);fetch(e.href,t)}})();class o extends HTMLElement{constructor(){super()}connectedCallback(){this.innerHTML=`  
+(function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))r(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const l of t.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&r(l)}).observe(document,{childList:!0,subtree:!0});function o(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function r(e){if(e.ep)return;e.ep=!0;const t=o(e);fetch(e.href,t)}})();class a extends HTMLElement{constructor(){super()}connectedCallback(){this.innerHTML=`  
         <nav class="bg-white p-5 shadow md:flex md:items-center md:justify-between">
           <div class="flex items-center justify-between">
             <span class="cursor-pointer font-[Poppins] text-2xl">
@@ -10,7 +10,7 @@
             </span>
       
             <span class="mx-2 block cursor-pointer text-3xl md:hidden">
-              <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+              <ion-icon name="menu" onclick="import('./helper.js').then(module => module.Menu(this))"></ion-icon>
             </span>
           </div>
       
@@ -42,4 +42,4 @@
     
           <h2 class=""></h2>
         </ul>
-        </nav>`}}customElements.define("nav-component",o);
+        </nav>`}}customElements.define("nav-component",a);
