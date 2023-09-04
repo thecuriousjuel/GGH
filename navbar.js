@@ -29,16 +29,28 @@ class Navbar extends HTMLElement
             <a href="index.html" class="text-xl duration-500 hover:text-red-500">HOME</a>
           </li>
           <li class="mx-4 my-6 md:my-0">
-            <a href="bracelet.html" class="text-xl duration-500 hover:text-red-500">BRACELET</a>
+            <a href="loha.html" class="text-xl duration-500 hover:text-red-500">LOHA</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="sakha.html" class="text-xl duration-500 hover:text-red-500">SAKHA</a>
           </li>
           <li class="mx-4 my-6 md:my-0">
             <a href="pola.html" class="text-xl duration-500 hover:text-red-500">POLA</a>
           </li>
           <li class="mx-4 my-6 md:my-0">
+            <a href="bala.html" class="text-xl duration-500 hover:text-red-500">BALA</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
             <a href="chur.html" class="text-xl duration-500 hover:text-red-500">CHUR</a>
           </li>
           <li class="mx-4 my-6 md:my-0">
-            <a href="loha.html" class="text-xl duration-500 hover:text-red-500">LOHA BADHANO</a>
+            <a href="mantasa.html" class="text-xl duration-500 hover:text-red-500">MANTASA</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="bracelet.html" class="text-xl duration-500 hover:text-red-500">BRACELET</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="wristlet.html" class="text-xl duration-500 hover:text-red-500">WRISTLET</a>
           </li>
     
           <li class="mx-4 my-6 md:my-0">
