@@ -16,7 +16,6 @@ export default {
           wristlet: 'wristlet.html',
           contact: 'contact.html', // Additional entry point for the contact page
           about: 'about.html',   // Additional entry point for the about page
-          
           // Add more entry points as needed
         },
       },
