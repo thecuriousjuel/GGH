@@ -1,4 +1,4 @@
-import"./navbar-helper-4f8ec215.js";let e=[{name:"Gold Sakha 1",weight:2,imageFileLocation:"img/sakha/sakha1.jpg"},{name:"Gold Sakha 2",weight:2,imageFileLocation:"img/sakha/sakha2.jpg"},{name:"Gold Sakha 3",weight:2,imageFileLocation:"img/sakha/sakha3.jpg"},{name:"Gold Sakha 4",weight:2,imageFileLocation:"img/sakha/sakha4.jpg"},{name:"Gold Sakha 5",weight:2,imageFileLocation:"img/sakha/sakha5.jpg"},{name:"Gold Sakha 6",weight:2,imageFileLocation:"img/sakha/sakha6.jpg"},{name:"Gold Sakha 7",weight:2,imageFileLocation:"img/sakha/sakha7.jpg"},{name:"Gold Sakha 8",weight:2,imageFileLocation:"img/sakha/sakha8.jpg"},{name:"Gold Sakha 9",weight:2,imageFileLocation:"img/sakha/sakha9.jpg"}],i="";for(let a=0;a<e.length;a+=1)i+=`<div
+import"./navbar-helper-62aac652.js";let t=[{name:"Gold Mantasa 1",weight:2,imageFileLocation:"img/mantasa/mantasa1.jpg"},{name:"Gold Mantasa 2",weight:2,imageFileLocation:"img/mantasa/mantasa2.jpg"},{name:"Gold Mantasa 3",weight:2,imageFileLocation:"img/mantasa/mantasa3.jpg"},{name:"Gold Mantasa 4",weight:2,imageFileLocation:"img/mantasa/mantasa4.jpg"},{name:"Gold Mantasa 5",weight:2,imageFileLocation:"img/mantasa/mantasa5.jpg"},{name:"Gold Mantasa 6",weight:2,imageFileLocation:"img/mantasa/mantasa6.jpg"}],e="";for(let a=0;a<t.length;a+=1)e+=`<div
   class="w-full max-w-xs rounded-lg border border-gray-200 bg-white shadow drop-shadow-2xl dark:bg-gray-700 md:m-20"
   >
   <div
@@ -6,7 +6,7 @@ import"./navbar-helper-4f8ec215.js";let e=[{name:"Gold Sakha 1",weight:2,imageFi
   >
     <img
       class="rounded-t-lg p-4"
-      src="${e[a].imageFileLocation}"
+      src="${t[a].imageFileLocation}"
       alt="product image"
     />
   </div>
@@ -15,7 +15,7 @@ import"./navbar-helper-4f8ec215.js";let e=[{name:"Gold Sakha 1",weight:2,imageFi
       <h5
         class="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
       >
-      ${e[a].name}
+      ${t[a].name}
       </h5>
     </a>
   
@@ -30,4 +30,4 @@ import"./navbar-helper-4f8ec215.js";let e=[{name:"Gold Sakha 1",weight:2,imageFi
       >
     </div>
   </div>
-  </div>`;class t extends HTMLElement{constructor(){super()}connectedCallback(){this.innerHTML=i}}customElements.define("sakha-component",t);
+  </div>`;class n extends HTMLElement{constructor(){super()}connectedCallback(){this.innerHTML=e}}customElements.define("mantasa-component",n);

@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://thecuriousjuel.github.io/GGH/",
   "scripts": {
     "start": "vite",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build"
   },
   "keywords": [],
@@ -12,6 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.15",
+    "gh-pages": "^6.0.0",
     "postcss": "^8.4.28",
     "prettier": "^3.0.2",
     "prettier-plugin-tailwindcss": "^0.5.3",
