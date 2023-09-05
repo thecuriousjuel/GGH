@@ -1,4 +1,4 @@
-import"./navbar-helper-62aac652.js";let e=[{name:"Gold Sakha 1",weight:2,imageFileLocation:"img/sakha/sakha1.jpg"},{name:"Gold Sakha 2",weight:2,imageFileLocation:"img/sakha/sakha2.jpg"},{name:"Gold Sakha 3",weight:2,imageFileLocation:"img/sakha/sakha3.jpg"},{name:"Gold Sakha 4",weight:2,imageFileLocation:"img/sakha/sakha4.jpg"},{name:"Gold Sakha 5",weight:2,imageFileLocation:"img/sakha/sakha5.jpg"},{name:"Gold Sakha 6",weight:2,imageFileLocation:"img/sakha/sakha6.jpg"},{name:"Gold Sakha 7",weight:2,imageFileLocation:"img/sakha/sakha7.jpg"},{name:"Gold Sakha 8",weight:2,imageFileLocation:"img/sakha/sakha8.jpg"},{name:"Gold Sakha 9",weight:2,imageFileLocation:"img/sakha/sakha9.jpg"}],i="";for(let a=0;a<e.length;a+=1)i+=`<div
+import"./navbar-helper-174942c9.js";let a=[{name:"Gold Loha 1",weight:2,imageFileLocation:"img/loha/loha1.jpg"},{name:"Gold Loha 2",weight:2,imageFileLocation:"img/loha/loha2.jpg"},{name:"Gold Loha 3",weight:2,imageFileLocation:"img/loha/loha3.jpg"},{name:"Gold Loha 4",weight:2,imageFileLocation:"img/loha/loha4.jpg"},{name:"Gold Loha 5",weight:2,imageFileLocation:"img/loha/loha5.jpg"},{name:"Gold Loha 6",weight:2,imageFileLocation:"img/loha/loha6.jpg"},{name:"Gold Loha 7",weight:2,imageFileLocation:"img/loha/loha7.jpg"},{name:"Gold Loha 8",weight:2,imageFileLocation:"img/loha/loha8.jpg"},{name:"Gold Loha 9",weight:2,imageFileLocation:"img/loha/loha9.jpg"}],o="";for(let e=0;e<a.length;e+=1)o+=`<div
   class="w-full max-w-xs rounded-lg border border-gray-200 bg-white shadow drop-shadow-2xl dark:bg-gray-700 md:m-20"
   >
   <div
@@ -6,7 +6,7 @@ import"./navbar-helper-62aac652.js";let e=[{name:"Gold Sakha 1",weight:2,imageFi
   >
     <img
       class="rounded-t-lg p-4"
-      src="${e[a].imageFileLocation}"
+      src="${a[e].imageFileLocation}"
       alt="product image"
     />
   </div>
@@ -15,7 +15,7 @@ import"./navbar-helper-62aac652.js";let e=[{name:"Gold Sakha 1",weight:2,imageFi
       <h5
         class="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
       >
-      ${e[a].name}
+      ${a[e].name}
       </h5>
     </a>
   
@@ -30,4 +30,4 @@ import"./navbar-helper-62aac652.js";let e=[{name:"Gold Sakha 1",weight:2,imageFi
       >
     </div>
   </div>
-  </div>`;class t extends HTMLElement{constructor(){super()}connectedCallback(){this.innerHTML=i}}customElements.define("sakha-component",t);
+  </div>`;class i extends HTMLElement{constructor(){super()}connectedCallback(){this.innerHTML=o}}customElements.define("loha-component",i);
