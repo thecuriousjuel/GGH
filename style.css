@@ -2,7 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: bengaliFont;
-    src: url(Kalpana.ttf);
-}
+@layer utilities {
+    @variants responsive {
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+      }
+    }
+  }
+
