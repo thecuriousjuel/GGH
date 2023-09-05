@@ -4,3 +4,4 @@ Bugs
 2. Bracelet Responsiveness is not upto mark
 3. grid alignment get changed when using Responsiveness in bracelet
 4. Weight of the items of fixed and need to be changed. The string itself is hardcoded.
+5. [MAJOR] Items are not clickable. Some issue in the navbar is causing it.
