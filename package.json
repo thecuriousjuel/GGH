@@ -6,7 +6,8 @@
   "homepage": "https://thecuriousjuel.github.io/GGH/",
   "scripts": {
     "start": "vite",
-    "predeploy": "yarn run build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "vite build"
   },

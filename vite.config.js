@@ -1,7 +1,7 @@
 // vite.config.js
 export default {
     // Other Vite config options...
-    base: '/GGH',
+    base: '',
     plugins : [],
     build: {
       rollupOptions: {

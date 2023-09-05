@@ -1,4 +1,4 @@
-import"./navbar-helper-62aac652.js";let t=[{name:"Gold Mantasa 1",weight:2,imageFileLocation:"img/mantasa/mantasa1.jpg"},{name:"Gold Mantasa 2",weight:2,imageFileLocation:"img/mantasa/mantasa2.jpg"},{name:"Gold Mantasa 3",weight:2,imageFileLocation:"img/mantasa/mantasa3.jpg"},{name:"Gold Mantasa 4",weight:2,imageFileLocation:"img/mantasa/mantasa4.jpg"},{name:"Gold Mantasa 5",weight:2,imageFileLocation:"img/mantasa/mantasa5.jpg"},{name:"Gold Mantasa 6",weight:2,imageFileLocation:"img/mantasa/mantasa6.jpg"}],e="";for(let a=0;a<t.length;a+=1)e+=`<div
+import"./navbar-helper-174942c9.js";let t=[{name:"Gold Bracelet 1",weight:2,imageFileLocation:"img/bracelet/bracelet1.jpg"},{name:"Gold Bracelet 2",weight:2,imageFileLocation:"img/bracelet/bracelet2.jpg"},{name:"Gold Bracelet 3",weight:2,imageFileLocation:"img/bracelet/bracelet3.jpg"},{name:"Gold Bracelet 4",weight:2,imageFileLocation:"img/bracelet/bracelet4.jpg"},{name:"Gold Bracelet 5",weight:2,imageFileLocation:"img/bracelet/bracelet5.jpg"},{name:"Gold Bracelet 6",weight:2,imageFileLocation:"img/bracelet/bracelet6.jpg"},{name:"Gold Bracelet 7",weight:2,imageFileLocation:"img/bracelet/bracelet7.jpg"}],a="";for(let e=0;e<t.length;e+=1)a+=`<div
   class="w-full max-w-xs rounded-lg border border-gray-200 bg-white shadow drop-shadow-2xl dark:bg-gray-700 md:m-20"
   >
   <div
@@ -6,7 +6,7 @@ import"./navbar-helper-62aac652.js";let t=[{name:"Gold Mantasa 1",weight:2,image
   >
     <img
       class="rounded-t-lg p-4"
-      src="${t[a].imageFileLocation}"
+      src="${t[e].imageFileLocation}"
       alt="product image"
     />
   </div>
@@ -15,7 +15,7 @@ import"./navbar-helper-62aac652.js";let t=[{name:"Gold Mantasa 1",weight:2,image
       <h5
         class="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
       >
-      ${t[a].name}
+      ${t[e].name}
       </h5>
     </a>
   
@@ -30,4 +30,4 @@ import"./navbar-helper-62aac652.js";let t=[{name:"Gold Mantasa 1",weight:2,image
       >
     </div>
   </div>
-  </div>`;class n extends HTMLElement{constructor(){super()}connectedCallback(){this.innerHTML=e}}customElements.define("mantasa-component",n);
+  </div>`;class l extends HTMLElement{constructor(){super()}connectedCallback(){this.innerHTML=a}}customElements.define("bracelet-component",l);
