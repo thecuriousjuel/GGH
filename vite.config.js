@@ -1,6 +1,8 @@
 // vite.config.js
 export default {
     // Other Vite config options...
+    base: '',
+    plugins : [],
     build: {
       rollupOptions: {
         // Specify multiple entry points for HTML files
@@ -21,4 +23,3 @@ export default {
       },
     },
   };
-  
