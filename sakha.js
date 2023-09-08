@@ -25,7 +25,7 @@ for (let i = 0; i < sakha.length; i += 1)
     />
   </div>
   <div class="px-5 pb-5">
-    <a href="tel:+919434000984">
+  <a href="#" class="cursor-none pointer-events-none">
       <h5
         class="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
       >
@@ -38,7 +38,7 @@ for (let i = 0; i < sakha.length; i += 1)
         >Weight : 2 grams (Approx)</span
       >
       <a
-        href="#"
+        href="tel:+919434000984"
         class="rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
         >Contact</a
       >

@@ -1,4 +1,4 @@
-import"./navbar-helper-174942c9.js";let t=[{name:"Gold Mantasa 1",weight:2,imageFileLocation:"img/mantasa/mantasa1.jpg"},{name:"Gold Mantasa 2",weight:2,imageFileLocation:"img/mantasa/mantasa2.jpg"},{name:"Gold Mantasa 3",weight:2,imageFileLocation:"img/mantasa/mantasa3.jpg"},{name:"Gold Mantasa 4",weight:2,imageFileLocation:"img/mantasa/mantasa4.jpg"},{name:"Gold Mantasa 5",weight:2,imageFileLocation:"img/mantasa/mantasa5.jpg"},{name:"Gold Mantasa 6",weight:2,imageFileLocation:"img/mantasa/mantasa6.jpg"}],e="";for(let a=0;a<t.length;a+=1)e+=`<div
+import"./navbar-helper-cc23db9b.js";let a=[{name:"Gold Loha 1",weight:2,imageFileLocation:"img/loha/loha1.jpg"},{name:"Gold Loha 2",weight:2,imageFileLocation:"img/loha/loha2.jpg"},{name:"Gold Loha 3",weight:2,imageFileLocation:"img/loha/loha3.jpg"},{name:"Gold Loha 4",weight:2,imageFileLocation:"img/loha/loha4.jpg"},{name:"Gold Loha 5",weight:2,imageFileLocation:"img/loha/loha5.jpg"},{name:"Gold Loha 6",weight:2,imageFileLocation:"img/loha/loha6.jpg"},{name:"Gold Loha 7",weight:2,imageFileLocation:"img/loha/loha7.jpg"},{name:"Gold Loha 8",weight:2,imageFileLocation:"img/loha/loha8.jpg"},{name:"Gold Loha 9",weight:2,imageFileLocation:"img/loha/loha9.jpg"}],o="";for(let e=0;e<a.length;e+=1)o+=`<div
   class="w-full max-w-xs rounded-lg border border-gray-200 bg-white shadow drop-shadow-2xl dark:bg-gray-700 md:m-20"
   >
   <div
@@ -6,7 +6,7 @@ import"./navbar-helper-174942c9.js";let t=[{name:"Gold Mantasa 1",weight:2,image
   >
     <img
       class="rounded-t-lg p-4"
-      src="${t[a].imageFileLocation}"
+      src="${a[e].imageFileLocation}"
       alt="product image"
     />
   </div>
@@ -15,7 +15,7 @@ import"./navbar-helper-174942c9.js";let t=[{name:"Gold Mantasa 1",weight:2,image
       <h5
         class="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
       >
-      ${t[a].name}
+      ${a[e].name}
       </h5>
     </a>
   
@@ -30,4 +30,4 @@ import"./navbar-helper-174942c9.js";let t=[{name:"Gold Mantasa 1",weight:2,image
       >
     </div>
   </div>
-  </div>`;class n extends HTMLElement{constructor(){super()}connectedCallback(){this.innerHTML=e}}customElements.define("mantasa-component",n);
+  </div>`;class i extends HTMLElement{constructor(){super()}connectedCallback(){this.innerHTML=o}}customElements.define("loha-component",i);

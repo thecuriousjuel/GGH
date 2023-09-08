@@ -1,36 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>গৌরী গিণি হাউস - Contact</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>
+  <script type="module" src="navbar.js" type="text/javascript" defer></script>
+  <script type="module" src="loha.js" type="text/javascript" defer></script>
 </head>
 
-<body>
-    <div
-        class="max-md:transform max-md:scale-90 pointer-events-none absolute -z-10 max-md:mt-5 grid max-md:grid-cols-1 justify-items-center max-md:gap-y-10 gap-y-5 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5">
-
-        <div
-            class="max-md:transform max-md:scale-75 w-full max-w-xs rounded-lg border border-gray-200 bg-white shadow drop-shadow-2xl dark:bg-gray-700 md:m-20">
-            <div class="cursor-pointer object-cover transition duration-500">
-                <img class="rounded-t-lg p-4" src="${loha[i].imageFileLocation}" alt="product image" />
-            </div>
-            <div class="px-5 pb-5">
-                <a href="tel:+919434000984">
-                    <h5 class="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                        Gold Loha 1
-                    </h5>
-                </a>
-
-                <div class="flex items-center justify-between">
-                    <span class="text-xl font-bold text-gray-900 dark:text-white">Weight : 2 grams (Approx)</span>
-                    <a href="#"
-                        class="rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Contact</a>
-                </div>
-            </div>
-        </div>
+<body class="no-scrollbar bg-yellow-200">
+  <div class="flex flex-col">
+    <div class="fixed w-full">
+      <nav-component></nav-component>
     </div>
+    <div class="flex flex-col items-center">
+      <loha-component
+        class="max-pointer-events-none absolute -z-10 mt-10 grid grid-cols-1 justify-items-center gap-y-10 md:grid-cols-3 lg:grid-cols-3 2xl:grid-cols-3"></loha-component>
+    </div>
+  </div>
+  <script type="module" src="navbar-helper.js" type="text/javascript" defer></script>
 </body>
+<h1><a href="http://www.google.co.in">hi</a></h1>
 
 </html>

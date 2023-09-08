@@ -1,4 +1,4 @@
-import"./navbar-helper-174942c9.js";let a=[{name:"Gold Loha 1",weight:2,imageFileLocation:"img/loha/loha1.jpg"},{name:"Gold Loha 2",weight:2,imageFileLocation:"img/loha/loha2.jpg"},{name:"Gold Loha 3",weight:2,imageFileLocation:"img/loha/loha3.jpg"},{name:"Gold Loha 4",weight:2,imageFileLocation:"img/loha/loha4.jpg"},{name:"Gold Loha 5",weight:2,imageFileLocation:"img/loha/loha5.jpg"},{name:"Gold Loha 6",weight:2,imageFileLocation:"img/loha/loha6.jpg"},{name:"Gold Loha 7",weight:2,imageFileLocation:"img/loha/loha7.jpg"},{name:"Gold Loha 8",weight:2,imageFileLocation:"img/loha/loha8.jpg"},{name:"Gold Loha 9",weight:2,imageFileLocation:"img/loha/loha9.jpg"}],o="";for(let e=0;e<a.length;e+=1)o+=`<div
+import"./navbar-helper-cc23db9b.js";let t=[{name:"Gold Bracelet 1",weight:2,imageFileLocation:"img/bracelet/bracelet1.jpg"},{name:"Gold Bracelet 2",weight:2,imageFileLocation:"img/bracelet/bracelet2.jpg"},{name:"Gold Bracelet 3",weight:2,imageFileLocation:"img/bracelet/bracelet3.jpg"},{name:"Gold Bracelet 4",weight:2,imageFileLocation:"img/bracelet/bracelet4.jpg"},{name:"Gold Bracelet 5",weight:2,imageFileLocation:"img/bracelet/bracelet5.jpg"},{name:"Gold Bracelet 6",weight:2,imageFileLocation:"img/bracelet/bracelet6.jpg"},{name:"Gold Bracelet 7",weight:2,imageFileLocation:"img/bracelet/bracelet7.jpg"}],a="";for(let e=0;e<t.length;e+=1)a+=`<div
   class="w-full max-w-xs rounded-lg border border-gray-200 bg-white shadow drop-shadow-2xl dark:bg-gray-700 md:m-20"
   >
   <div
@@ -6,7 +6,7 @@ import"./navbar-helper-174942c9.js";let a=[{name:"Gold Loha 1",weight:2,imageFil
   >
     <img
       class="rounded-t-lg p-4"
-      src="${a[e].imageFileLocation}"
+      src="${t[e].imageFileLocation}"
       alt="product image"
     />
   </div>
@@ -15,7 +15,7 @@ import"./navbar-helper-174942c9.js";let a=[{name:"Gold Loha 1",weight:2,imageFil
       <h5
         class="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
       >
-      ${a[e].name}
+      ${t[e].name}
       </h5>
     </a>
   
@@ -30,4 +30,4 @@ import"./navbar-helper-174942c9.js";let a=[{name:"Gold Loha 1",weight:2,imageFil
       >
     </div>
   </div>
-  </div>`;class i extends HTMLElement{constructor(){super()}connectedCallback(){this.innerHTML=o}}customElements.define("loha-component",i);
+  </div>`;class l extends HTMLElement{constructor(){super()}connectedCallback(){this.innerHTML=a}}customElements.define("bracelet-component",l);
