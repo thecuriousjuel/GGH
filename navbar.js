@@ -52,6 +52,10 @@ class Navbar extends HTMLElement
           <li class="mx-4 my-6 md:my-0">
             <a href="wristlet.html" class="text-xl duration-500 hover:text-red-500">WRISTLET</a>
           </li>
+
+          <li class="mx-4 my-6 md:my-0">
+            <a href="necklace.html" class="text-xl duration-500 hover:text-red-500">NECKLACE</a>
+          </li>
     
           <li class="mx-4 my-6 md:my-0">
             <a href="contact.html" class="text-xl duration-500 hover:text-red-500">CONTACT</a>

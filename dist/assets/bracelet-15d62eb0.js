@@ -1,4 +1,4 @@
-import"./navbar-helper-cc23db9b.js";let t=[{name:"Gold Bracelet 1",weight:2,imageFileLocation:"img/bracelet/bracelet1.jpg"},{name:"Gold Bracelet 2",weight:2,imageFileLocation:"img/bracelet/bracelet2.jpg"},{name:"Gold Bracelet 3",weight:2,imageFileLocation:"img/bracelet/bracelet3.jpg"},{name:"Gold Bracelet 4",weight:2,imageFileLocation:"img/bracelet/bracelet4.jpg"},{name:"Gold Bracelet 5",weight:2,imageFileLocation:"img/bracelet/bracelet5.jpg"},{name:"Gold Bracelet 6",weight:2,imageFileLocation:"img/bracelet/bracelet6.jpg"},{name:"Gold Bracelet 7",weight:2,imageFileLocation:"img/bracelet/bracelet7.jpg"}],a="";for(let e=0;e<t.length;e+=1)a+=`<div
+import"./navbar-helper-c7dcf064.js";let t=[{name:"Gold Bracelet 1",weight:2,imageFileLocation:"img/bracelet/bracelet1.jpg"},{name:"Gold Bracelet 2",weight:2,imageFileLocation:"img/bracelet/bracelet2.jpg"},{name:"Gold Bracelet 3",weight:2,imageFileLocation:"img/bracelet/bracelet3.jpg"},{name:"Gold Bracelet 4",weight:2,imageFileLocation:"img/bracelet/bracelet4.jpg"},{name:"Gold Bracelet 5",weight:2,imageFileLocation:"img/bracelet/bracelet5.jpg"},{name:"Gold Bracelet 6",weight:2,imageFileLocation:"img/bracelet/bracelet6.jpg"},{name:"Gold Bracelet 7",weight:2,imageFileLocation:"img/bracelet/bracelet7.jpg"}],a="";for(let e=0;e<t.length;e+=1)a+=`<div
   class="w-full max-w-xs rounded-lg border border-gray-200 bg-white shadow drop-shadow-2xl dark:bg-gray-700 md:m-20"
   >
   <div
@@ -11,7 +11,7 @@ import"./navbar-helper-cc23db9b.js";let t=[{name:"Gold Bracelet 1",weight:2,imag
     />
   </div>
   <div class="px-5 pb-5">
-    <a href="tel:+919434000984">
+  <a href="#" class="cursor-none pointer-events-none">
       <h5
         class="text-3xl font-semibold tracking-tight text-gray-900 dark:text-white"
       >
@@ -24,7 +24,7 @@ import"./navbar-helper-cc23db9b.js";let t=[{name:"Gold Bracelet 1",weight:2,imag
         >Weight : 2 grams (Approx)</span
       >
       <a
-        href="#"
+        href="tel:+919434000984"
         class="rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
         >Contact</a
       >
