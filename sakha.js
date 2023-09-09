@@ -1,12 +1,12 @@
-let sakha = [{'name': 'Gold Sakha 1', 'weight': 2, 'imageFileLocation': 'img/sakha/sakha1.jpg'},
-{'name': 'Gold Sakha 2', 'weight': 2, 'imageFileLocation': 'img/sakha/sakha2.jpg'},
-{'name': 'Gold Sakha 3', 'weight': 2, 'imageFileLocation': 'img/sakha/sakha3.jpg'},
-{'name': 'Gold Sakha 4', 'weight': 2, 'imageFileLocation': 'img/sakha/sakha4.jpg'},
-{'name': 'Gold Sakha 5', 'weight': 2, 'imageFileLocation': 'img/sakha/sakha5.jpg'},
-{'name': 'Gold Sakha 6', 'weight': 2, 'imageFileLocation': 'img/sakha/sakha6.jpg'},
-{'name': 'Gold Sakha 7', 'weight': 2, 'imageFileLocation': 'img/sakha/sakha7.jpg'},
-{'name': 'Gold Sakha 8', 'weight': 2, 'imageFileLocation': 'img/sakha/sakha8.jpg'},
-{'name': 'Gold Sakha 9', 'weight': 2, 'imageFileLocation': 'img/sakha/sakha9.jpg'},]
+let sakha = [{ 'name': 'Gold Sakha 1', 'weight': 2, 'imageFileLocation': 'img/sakha/sakha1.jpg' },
+{ 'name': 'Gold Sakha 2', 'weight': 2, 'imageFileLocation': 'img/sakha/sakha2.jpg' },
+{ 'name': 'Gold Sakha 3', 'weight': 2, 'imageFileLocation': 'img/sakha/sakha3.jpg' },
+{ 'name': 'Gold Sakha 4', 'weight': 2, 'imageFileLocation': 'img/sakha/sakha4.jpg' },
+{ 'name': 'Gold Sakha 5', 'weight': 2, 'imageFileLocation': 'img/sakha/sakha5.jpg' },
+{ 'name': 'Gold Sakha 6', 'weight': 2, 'imageFileLocation': 'img/sakha/sakha6.jpg' },
+{ 'name': 'Gold Sakha 7', 'weight': 2, 'imageFileLocation': 'img/sakha/sakha7.jpg' },
+{ 'name': 'Gold Sakha 8', 'weight': 2, 'imageFileLocation': 'img/sakha/sakha8.jpg' },
+{ 'name': 'Gold Sakha 9', 'weight': 2, 'imageFileLocation': 'img/sakha/sakha9.jpg' },]
 
 let templateString = '';
 

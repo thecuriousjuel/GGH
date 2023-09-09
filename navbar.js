@@ -8,7 +8,7 @@ class Navbar extends HTMLElement
     connectedCallback()
     {
         this.innerHTML = `  
-        <nav class="bg-white p-5 shadow md:flex md:items-center md:justify-between">
+        <nav class="opacity-90 bg-white p-5 shadow md:flex md:items-center md:justify-between">
           <div class="flex items-center justify-between">
             <span class="cursor-pointer font-[Poppins] text-2xl">
               <div class="flex items-center justify-center">
