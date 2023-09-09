@@ -15,6 +15,7 @@ export default {
           chur: 'chur.html',
           mantasa: 'mantasa.html',
           bracelet: 'bracelet.html',
+          necklace: 'necklace.html',
           wristlet: 'wristlet.html',
           contact: 'contact.html', // Additional entry point for the contact page
           about: 'about.html',   // Additional entry point for the about page
