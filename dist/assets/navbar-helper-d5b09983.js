@@ -1,4 +1,4 @@
-(function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))r(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const l of t.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&r(l)}).observe(document,{childList:!0,subtree:!0});function i(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function r(e){if(e.ep)return;e.ep=!0;const t=i(e);fetch(e.href,t)}})();class o extends HTMLElement{constructor(){super()}connectedCallback(){this.innerHTML=`  
+(function(){const l=document.createElement("link").relList;if(l&&l.supports&&l.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))r(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const s of t.addedNodes)s.tagName==="LINK"&&s.rel==="modulepreload"&&r(s)}).observe(document,{childList:!0,subtree:!0});function i(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function r(e){if(e.ep)return;e.ep=!0;const t=i(e);fetch(e.href,t)}})();class o extends HTMLElement{constructor(){super()}connectedCallback(){this.innerHTML=`  
         <nav class="bg-white p-5 shadow md:flex md:items-center md:justify-between">
           <div class="flex items-center justify-between">
             <span class="cursor-pointer font-[Poppins] text-2xl">
@@ -42,6 +42,10 @@
           </li>
           <li class="mx-4 my-6 md:my-0">
             <a href="wristlet.html" class="text-xl duration-500 hover:text-red-500">WRISTLET</a>
+          </li>
+
+          <li class="mx-4 my-6 md:my-0">
+            <a href="necklace.html" class="text-xl duration-500 hover:text-red-500">NECKLACE</a>
           </li>
     
           <li class="mx-4 my-6 md:my-0">
